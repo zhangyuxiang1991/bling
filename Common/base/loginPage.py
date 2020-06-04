@@ -10,7 +10,7 @@ class LoginPage(base):
         return self.by_id('cn.percent.dolphin_prod:id/edit_login_account')
     #获取密码元素
     def password(self):
-        return self.by_id('cn.percent.dolphin_prod:id/edit_login_password')
+        return self.by_id('cn.percent.dolphin_prod:id/edit_login_passwogird')
     #获取登录按钮元素
     def loginbtn(self):
         return self.by_id('cn.percent.dolphin_prod:id/login_btn')
