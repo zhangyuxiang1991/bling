@@ -3,7 +3,6 @@ from Common.base.basePage import base
 
 class LoginPage(base):
     #BLing获取系统权限时的允许元素
-    #试一试
     def allow(self):
         return self.by_id('com.android.packageinstaller:id/permission_allow_button')
     #获取用户名元素
